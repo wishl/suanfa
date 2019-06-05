@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/BTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/Bag.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/BoyerMoore.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/BreadthFirstSearch.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/CurveFitting.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
