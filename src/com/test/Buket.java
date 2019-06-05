@@ -11,6 +11,10 @@ import java.util.concurrent.Executors;
 
 /**
  * 桶排序
+ * 创建n个hash桶,每个hash桶中有一定的数据范围,
+ * 在排序时,从待排序的数组中获取数据放入hash桶中,
+ * 之后对每个hash桶排序,在把hash桶相连后得到排好序的数组
+ * 适合于多线程排序,参考ConcurrentHashMap
  */
 public class Buket<T extends Comparable> {
 
