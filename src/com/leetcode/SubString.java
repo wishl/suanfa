@@ -10,9 +10,9 @@ import java.util.Set;
  */
 public class SubString {
 
-    // abcabc == >3
+    // abcabc==>3
     // abba
-    // bbb ==> 1
+    // bbb==>1
     // 暴力解
     public static int lengthOfLongestSubstring(String s) {
         int result = 0;
