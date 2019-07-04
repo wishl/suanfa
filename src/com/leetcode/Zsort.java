@@ -23,10 +23,10 @@ public class Zsort {
         int gap = 2*numRows-2;// 中间间隔
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < numRows; i++) {//行
-            for (int j = 0; j <s.length(); j+=gap) {
-                if(j+i<s.length()){//E   D   H   N
+            for (int j = 0; j+i <s.length(); j+=gap) {
+//                if(j+i<s.length()){//E   D   H   N
                     sb.append(s.charAt(j+i));
-                }
+//                }
                 int num = j+gap-i;
                 if(i>0&&i<numRows-1&&num<s.length()){// 中间 E T O E S I I G
                     sb.append(s.charAt(num));
